@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logoo from "./IMG-1932.JPG";
 import "@aws-amplify/ui-react/styles.css";
 // import "./App.css";
 
@@ -20,7 +21,7 @@ function App({ signOut }) {
     <View className="App" textAlign="center">
       {/* <Image src={require("./IMG-1932.JPG")} alt="logo" /> */}
       <Card textAlign="center">
-        <Image width="50%" height="auto" src={require("./IMG-1932.JPG")} className="App-logo" alt="logo" />
+        <Image width="50%" height="auto" src={logoo} className="App-logo" alt="logo" />
         <Heading level={1}>I love my babya!!!</Heading>
       </Card>
       <Button onClick={signOut}>Sign Out</Button>
